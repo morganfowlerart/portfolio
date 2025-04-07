@@ -41,13 +41,7 @@ p, h1, h3, h4{
 	font-weight: 400;
 	font-style: normal;
 	color: rgba(44,23,16,1.00);
-	
 }
-
-.image-container {
-	
-}
-
 
 .header {
 	border: rgba(44,23,16,1.00);
@@ -59,21 +53,20 @@ p, h1, h3, h4{
 	
 }
 
-.headline-copy
-{font-family: "mudstone-sans", sans-serif;
+.headline-copy{
+	font-family: "mudstone-sans", sans-serif;
 	font-weight: 900;
 	font-style: normal;
 	color:rgba(44,23,16,1.00);}
 
-.headline-copy-img
-{font-family: "mudstone-sans", sans-serif;
+.headline-copy-img {
+	font-family: "mudstone-sans", sans-serif;
 	font-weight: 900;
 	font-style: normal;
 	color: antiquewhite;
 }
 
 .body-copy-img {
-
 	font-family: "stevie-sans", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -82,13 +75,13 @@ p, h1, h3, h4{
 }
 
 .body-copy {
-
-font-family: "stevie-sans", sans-serif;
+	font-family: "stevie-sans", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	color: rgba(44,23,16,1.00); }
 
-h2 {font-family: "mudstone-sans", sans-serif;
+h2 {
+	font-family: "mudstone-sans", sans-serif;
 	font-weight: 900;
 	font-style: normal;
 	color:rgba(44,23,16,1.00);
@@ -107,14 +100,9 @@ h2 {font-family: "mudstone-sans", sans-serif;
 .flex-container {
   	display: flex;
 	justify-content: space-evenly;
- 	 flex-direction: row;
+ 	flex-direction: row;
 }
 
-.flex-container-img {
-  	display: flex;
-	justify-content: space-evenly;
- 	 flex-direction: row;
-}
 
 @media (max-width: 800px) {
   .flex-container {
@@ -146,35 +134,40 @@ h2 {font-family: "mudstone-sans", sans-serif;
   width: 175px;
   background-color:rgba(200,199,255,1.00);
   border-radius: 50%;
-	display: inline-block; }
+	display: inline-block;
+}
 	
 	.dot2 {
   height: 175px;
   width: 175px;
   background-color: rgba(255,62,7,1.00);
   border-radius: 50%;
-		display: inline-block; } 
+	display: inline-block; 
+} 
 
 	.dot3 {
   height: 175px;
   width: 175px;
   background-color:rgba(183,157,134,1.00);
   border-radius: 50%;
-		display: inline-block; } 
+		display: inline-block; 
+} 
 
 .dot4 {
   height: 175px;
   width: 175px;
   background-color: rgba(160,179,221,1.00);
   border-radius: 50%;
-		display: inline-block; } 
+		display: inline-block; 
+} 
 
 .dot5 {
   height: 175px;
   width: 175px;
   background-color: rgba(44,24,15,1.00);
   border-radius: 50%;
-		display: inline-block; } 
+		display: inline-block; 
+} 
 
 .dark-circle {
 	color: antiquewhite;
